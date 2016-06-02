@@ -1,0 +1,10 @@
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /HETIC/annee_3/semaines_intensives/souslocean/web/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+</IfModule>

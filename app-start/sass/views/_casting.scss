@@ -1,0 +1,36 @@
+/* Casting */
+#casting .wrapper{
+	width: 800px;
+	margin: 50px auto 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+#casting .wrapper h3{
+	display: block;
+	margin: 0 auto 50px auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+#casting .wrapper ul{
+	width: 1400px;
+	display: block;
+	height: 490px;
+	position: relative;
+}
+
+#casting .wrapper ul li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 20px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+
+#casting .wrapper ul li h4{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 15px 0 20px 0;
+}

@@ -1,0 +1,13 @@
+@import "reset";
+@import "fonts";
+@import "bourbon/bourbon";
+
+/*********** BODY **************/
+
+body{
+	font-family: 'klavika-web', 'Open Sans', sans-serif;
+	background: #083350;
+	overflow: hidden;
+}
+
+/*********** PAGES **************/

@@ -1,0 +1,53 @@
+/* Trailer */
+#trailer{
+	background: rgba(0,0,0, 0.5);
+}
+
+#trailer .close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: url(../img/close.png) no-repeat center center;
+	background-size: 20px 20px;
+	z-index: 2;
+}
+
+#trailer video{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	display: block;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+#trailer .sound{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: url(../img/sound.png) no-repeat center center;
+	background-size: 20px 20px;
+	z-index: 2;
+}
+
+#trailer .sound.mute{
+	background-image: url(../img/sound-off.png);
+}
+
+#trailer .progress{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	display: block;
+	height: 6px;
+	width: 0%;
+	background: #FFF;
+	z-index: 2;
+}

@@ -1,0 +1,46 @@
+/* Header */
+header{
+	width: 250px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	border-left: 1px solid rgba(0,0,0,0.1);
+	z-index: 2;
+}
+
+header nav{
+	display: block;
+	margin: 0px;
+	height: 100%;
+	text-align: left;
+}
+
+header nav a{
+	color: #2c2c2d;
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	opacity: 0.8;
+	transition: all 0.3s ease-out;
+}
+
+header nav a:hover{
+	color: #FFF;
+}
+
+header h1{
+	text-indent: -9000px;
+	display: block;
+	width: 60px;
+	height: 44px;
+	background: url(../img/logo.svg) no-repeat center center;
+	margin: 150px 0 50px 10px;
+}

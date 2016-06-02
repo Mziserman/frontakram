@@ -1,0 +1,18 @@
+svg {
+	-webkit-animation:cube-animation 10s linear 0s infinite;
+	transform-origin: 250 250;
+	transform: rotate(360deg);
+}
+
+.orbit {
+	fill: #FFF;
+}
+
+/*@-webkit-keyframes cube-animation {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}*/
